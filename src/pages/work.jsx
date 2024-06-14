@@ -29,4 +29,6 @@ const ExplorePage = () => {
     )
 }
 
+export const Head = () => <title>Work</title>
+
 export default ExplorePage

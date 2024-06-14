@@ -19,4 +19,6 @@ const ContactPage = () => {
     )
 }
 
+export const Head = () => <title>Contact</title>
+
 export default ContactPage

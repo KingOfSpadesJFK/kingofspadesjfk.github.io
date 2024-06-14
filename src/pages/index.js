@@ -1,9 +1,7 @@
-// Step 1: Import React
 import * as React from 'react'
 import Layout from './component/layout'
 import WavingText from './component/waving_text'
 
-// Step 2: Define your component
 const IndexPage = () => {
   return (
     <Layout>
@@ -17,8 +15,6 @@ const IndexPage = () => {
   )
 }
 
-// You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Stuck in a dream</title>
 
-// Step 3: Export your component
 export default IndexPage
