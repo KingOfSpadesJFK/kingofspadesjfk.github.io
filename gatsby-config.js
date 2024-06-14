@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Stuck in a Dream`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://kingofspadesjfk.github.io`,
   },
   plugins: [],
 }
