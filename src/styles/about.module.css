@@ -1,0 +1,35 @@
+.nametag {
+    background-color: var(--fg-primary);
+    border-radius: 30px;
+    user-select: none;
+    padding: 1rem;
+    margin: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nametag-whitespace {
+    color: var(--text-dark);
+    background-color: var(--fg-highlight);
+    width: 100%;
+    padding: 3rem;
+    margin-top: 1rem;
+    border-radius: 0 0 30px 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nametag-whitespace ::-moz-selection {
+    color: var(--text-light);
+    background: var(--fg-primary);
+}
+
+.nametag-whitespace ::selection {
+    color: var(--text-light);
+    background: var(--fg-primary);
+}

@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-size: 3.75rem; /* 60px */
+  line-height: 1;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  color: var(--fg-primary);
+}
+
+:root {
+  --bg-secondary: #1d1c36;
+  --bg-primary: #5e4d91;
+  --text-light: #b8ffd9;
+  --text-dark: #222d47;
+  --fg-highlight: #00ff80;
+  --fg-primary: #e25aa0;
+  --fg-secondary: #d02f82;
+  font-family: sans-serif;
+  background-color: var(--bg-secondary);
+  color: var(--text-light)
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: var(--text-dark);
+  background: var(--fg-highlight);
+}
+
+::selection {
+  color: var(--text-dark);
+  background: var(--fg-highlight);
+}
