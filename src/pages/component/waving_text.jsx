@@ -10,7 +10,7 @@ const WavingParagraph = styled.p`
   user-select: none;
 
   color: var(--fg-primary);
-  font-size: 64pt;
+  font-size: 10vw;
   font-weight: bold;
   text-shadow: 6px 6px 0px var(--fg-highlight);
 `;
