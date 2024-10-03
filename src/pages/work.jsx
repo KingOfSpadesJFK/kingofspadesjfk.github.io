@@ -12,13 +12,11 @@ const ExplorePage = () => {
               name='BHLEG' 
               description='A puzzle-platformer about shining light as a gameplay mechanic. Submitted to the Pirate Software Game Jam 15' 
               website='https://kasseroleofsaracha.itch.io/bhleg'
-              repo='https://github.com/KingOfSpadesJFK/bhleg'
             />
             <WorkInfoCard 
               name='Worth Diving For' 
               description='A slow-paced underwater platformer. Submitted to Pixel Game Jam 2024' 
               website='https://kasseroleofsaracha.itch.io/worth-diving-for'
-              repo='https://github.com/KingOfSpadesJFK/gabagool'
             />
             <WorkInfoCard 
               name='Learnix' 
